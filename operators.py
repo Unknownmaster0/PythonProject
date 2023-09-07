@@ -41,6 +41,7 @@ Note -> the answer of comparison operators is always in BOOLEAN.
 Note-> the answer of logical operators are also in true or false i.e. in boolean only.
 1. and
 2. or
+3. not
 
 """
 
@@ -49,3 +50,8 @@ b = 6
 c = 5
 print(a > b and a == c)
 print(a > b or a == c)
+
+# the not operator.
+print(not(True))
+print(not(False))
+
