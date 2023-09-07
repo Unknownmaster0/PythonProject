@@ -16,6 +16,11 @@ name3 = '''sagar'''
 
 print(name1, name2, name3)
 
+# multi-line strings
+print("multi-line string in python.")
+a = ('sagar'
+     'singh')
+print(a)
 
 # methods in strings in python
 print(name.count("a"))  # count the occurrence of given character in string.
