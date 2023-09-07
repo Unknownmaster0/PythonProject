@@ -1,7 +1,10 @@
 # string in python
 name = 'sagar'
-
 print(name)
+
+# # we can't change the string element. example -> name[1] = 't' not possible.
+# name[1] = 't'
+# print(name)  #  'str' object does not support item assignment -> means they are immutable. They can't be changed.
 
 # printing the half or some portion of the name.
 print(name[0:3])  # this will print the 0 to (3-1) characters of the name
