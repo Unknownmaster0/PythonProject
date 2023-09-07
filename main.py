@@ -22,5 +22,15 @@ print(t)
 
 # difference come in both when we add any number in both
 # print(s+1)  # this line will throw error, so we use typecasting technique.
-print(int(s) + 1)  # here we type-casted the string to integer
+print( int(s) + 1)  # here we type-casted the string to integer
 print(t+1)
+
+# You can know the type of data type of the variable -> simply by writing = type(name of variable)
+print("Knowing the type of variable.")
+a = 'sagar'
+print("type of a->",type(a))
+a = 6
+print("type of a->",type(a))
+a = True
+print("type of a->",type(a))
+
